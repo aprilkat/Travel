@@ -1,0 +1,85 @@
+/*
+  Author:   April Bollinger
+  Date:     07/4/2020
+  Project:  Responsive Travel
+*/
+
+body {
+  text-align: center;
+  align-items: center;
+  padding: 0px;
+}
+
+nav{
+  background-color: grey;
+  width: 98%;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  width: 98%;
+  background-color: #FFC6EA;
+  padding: 30px 0px 20px 0px;
+}
+
+
+a:link {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+a:active {
+  background-color: white;
+  color: black;
+}
+
+
+p {
+  height: 250px;
+  vertical-align: middle;
+  font-size: 1.2em;
+  border: 4px black solid;
+  margin-top: 0px;
+  padding: 10px 5px 10px 5px;
+  margin-bottom: 40px;
+  width: 96%;
+  box-shadow: 5px 5px grey;
+}
+
+.intro {
+  margin-top: 50px;
+}
+
+
+header {
+  font-size: 2em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: black;
+  background-color: grey;
+  width: 98%;
+
+
+}
+
+img {
+  border: 4px black solid;
+  width: 98%;
+  box-shadow: 5px 0px grey;
+}
+
+
+footer {
+  color: black;
+  background-color: grey;
+  clear: both;
+  padding: 20px 0px 10px 0px;
+}
+
+.tabletshow {
+  display: none;
+}

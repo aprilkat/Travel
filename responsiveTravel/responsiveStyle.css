@@ -1,0 +1,80 @@
+/*
+  Author:   April Bollinger
+  Date:     07/4/2020
+  Project:  Responsive Travel
+*/
+
+@media screen and (min-width: 600px) {
+
+  img {
+    display: inline-block;
+  }
+
+  .section1 {
+    vertical-align: top;
+    float: left;
+    width: 48%;
+    clear: none;
+  }
+
+  .section2 {
+    vertical-align: top;
+    float: right;
+    width: 48%;
+    clear: none;
+  }
+
+  .section3 {
+    float: left;
+    width: 48%;
+    clear: left;
+  }
+
+  .section4 {
+    float: right;
+    width: 48%;
+    clear: right;
+  }
+
+  .tabletshow {
+    display: block;
+  }
+
+
+}
+
+
+@media screen and (min-width: 1000px) {
+  .section1, .section2, .section3 {
+    float: none;
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+  }
+
+  .section2 {
+    width: 33%
+  }
+
+  .section4, .tabletshow {
+    float: none;
+    display: inline-block;
+    width: 47%;
+  }
+
+  .section4 > img {
+    height: 400px;
+  }
+
+  .tabletshow > img {
+    height: 400px;
+  }
+  .section4 {
+    float: left;
+  }
+
+  .tabletshow {
+    float: right;
+  }
+
+}
